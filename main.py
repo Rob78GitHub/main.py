@@ -16,4 +16,4 @@ if(name=='Robert'):
 else:
     print('false!')
 print()
-input('any key press')
+input('any key')
