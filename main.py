@@ -46,15 +46,40 @@ if(name=="Robert"):
     for x in range(len(mylist)):
         print(mylist[x])
 
+    mylist = ["Apfel", "Banane", "Kirsche"]
+    print(mylist)
 
+    i=0
+    while(i<len(mylist)):
+        print(mylist[i])
+        i=i+1
+
+    for x in mylist:
+        print(x)
+
+
+newlist=[]
+
+for x in mylist:
+    newlist.append(x)
+
+print("newlist=",newlist)
+
+
+#newlist = [expression for item in iterable if condition == True]
+anewlist=[x for x in mylist]
+print("anewlist=",newlist)
+
+newlist = [x for x in range(10)]
+print("newlist=",newlist)
 
 
 #    print(mylist[0])
 #    print(mylist[0:2])
 #    print(len(mylist))
 
-    for x in range(1, 100, 1):
-        print(str(x)+" ",end="")
+for x in range(1, 100, 1):
+    print(str(x)+" ",end="")
 
 else:
     print('false!')
